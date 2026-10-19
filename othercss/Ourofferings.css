@@ -1,0 +1,439 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+
+nav {
+    width: 95%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.nav-container {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-leftside {
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+}
+
+.nav-leftside h3 a {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.a {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.a li a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #FCFCFC;
+    padding: 10px 14px;
+    border-radius: 50px;
+    background-color: #111111;
+}
+
+.nav-rightside {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.nav-rightside ul a {
+    padding: 10px 14px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FCFCFC;
+    background-color: #111111;
+}
+
+.log {
+    padding: 10px 14px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FCFCFC;
+    background-color: #111111;
+}
+
+.sign {
+    padding: 10px 14px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.fa-bars {
+    display: none;
+}
+
+/* mediaquery */
+@media(max-width: 1440px) {
+    header {
+        width: 100%;
+    }
+
+    nav {
+        width: 95%;
+    }
+}
+
+@media(max-width: 1118px) {
+    header {
+        border-bottom: 2px solid #292929;
+    }
+
+    nav {
+        width: 98%;
+    }
+
+    .nav-leftside h3 a {
+        font-size: 20px;
+    }
+
+    .a {
+        display: none;
+    }
+
+    .nav-rightside ul a {
+        display: none;
+    }
+
+    .log {
+        display: block;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+}
+
+@media(max-width: 480px) {
+    nav {
+        width: 100%;
+    }
+
+    .nav-leftside h3 a {
+        font-size: 18px;
+    }
+
+    .log {
+        font-size: 12px;
+        padding: 10px 12px;
+    }
+
+    .sign {
+        font-size: 12px;
+        padding: 10px 12px;
+    }
+}
+
+/* section 1 */
+.ryngo {
+    margin-top: 4.5em;
+}
+
+.ademola {
+    padding: 60px;
+}
+
+.ademola h2 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.ademola p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.ademola a {
+    padding: 14px 24px;
+    background-color: #000000;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+@media(max-width: 990px) {
+    .ademola {
+        padding: 30px;
+        margin-top: 20px;
+    }
+
+    .ademola h2 {
+        font-size: 44px;
+    }
+}
+
+@media(max-width: 565px) {
+    .ademola {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .ademola h2 {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+}
+
+/* section 2 */
+
+.sammy {
+    padding: 60px;
+}
+
+.sammy h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.aduke {
+    width: 100%;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.aduke p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 24px;
+}
+
+.rashi {
+    width: 50%;
+}
+
+.ari {
+    width: 50%;
+}
+
+.ola {
+    margin-bottom: 20px;
+}
+
+@media(max-width: 990px) {
+    .sammy {
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    .sammy h3 {
+        font-size: 32px;
+    }
+
+    .aduke {
+        flex-direction: column;
+    }
+
+    .rashi {
+        width: 100%;
+    }
+
+    .ari {
+        width: 100%;
+    }
+}
+
+@media(max-width: 400px) {
+    .sammy {
+        padding: 20px;
+    }
+
+    .sammy h3 {
+        font-size: 28px;
+    }
+
+    .aduke p {
+        justify-content: center;
+    }
+}
+
+/* section 3 */
+.ahmad {
+    padding-left: 60px;
+    margin-top: 10px;
+}
+
+.ahmad h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.ahmad p {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.mighty {
+    display: flex;
+    gap: 1em;
+}
+
+.mighty a {
+    font-size: 16px;
+    font-weight: 400px;
+    color: black;
+}
+
+@media(max-width: 1000px) {
+    .ahmad {
+        padding-left: 20px;
+    }
+}
+
+@media(max-width: 580px) {
+    .ahmad {
+        padding-left: 20px;
+        margin-top: 30px;
+    }
+
+    .ahmad h3 {
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 366px) {
+    .ahmad h3 {
+        font-size: 25px;
+    }
+
+    .mighty {
+        flex-direction: column;
+    }
+}
+
+/* section 4 */
+
+.yimika {
+    border: 1px solid black;
+    margin-top: 2em;
+}
+
+.nano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.seun img {
+    width: 27vw;
+}
+
+.seun h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.seun p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.seun a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* section 5 */
+.grandpa {
+    display: flex;
+    gap: 2.4em;
+    padding-left: 60px;
+    margin-top: 70px;
+}
+
+.thompsino a img {
+    margin-bottom: 20px;
+}
+
+.thompsino h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.thompsino p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.thompsino a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.edosa {
+    padding-left: 180px;
+}
+
+@media(max-width: 990px) {
+    .grandpa {
+        padding-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .edosa {
+        padding-left: 0px;
+    }
+}
+
+@media(max-width: 600px) {
+    .grandpa {
+        display: flex;
+        flex-direction: column;
+    }
+}
