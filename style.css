@@ -87,6 +87,12 @@ nav{
     color: #000000;
     background-color: #FFFFFF;
 }
+.steph{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 14px;
+}
 
 .fa-bars{
     display: none;
