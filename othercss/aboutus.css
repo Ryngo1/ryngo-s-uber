@@ -149,7 +149,6 @@ nav{
     /* section 1 */
 .codm{
     margin-top: 4em;
-    border: 1px solid black;
 }
 
 .bola{
@@ -185,9 +184,7 @@ nav{
 }
 
       /* section 2 */
-.history{
-    border: 1px solid black;
-}
+
 .his{
     padding: 60px;
     width: 70%;
@@ -242,9 +239,6 @@ nav{
 }
 
 .peru{
-    border: 1px solid black;
-    /* padding-top: 10em;
-    padding-left: 50px; */
     width: 40%;
     position: absolute;
     top: 100px;
@@ -266,7 +260,6 @@ nav{
 
 .peru a{
     padding: 14px 20px;
-    border: 1px solid black;
     border-radius: 10px;
     background-color: black;
     font-size: 16px;
@@ -294,9 +287,7 @@ nav{
     }
 }
 @media(max-width: 390px){
-    .peru{
-        
-    }
+    
     .peru h3{
         font-size: 26px;
     }
@@ -387,12 +378,10 @@ nav{
 
    /* section 6 */
 .heroine-section{
-    margin-top: 5em;
+    margin-top: 4em;
 }
 
 .heroine{
-    /* width: 90%;
-    margin: auto; */
     display: flex;
     align-items: center;
     gap: 5em;
@@ -419,6 +408,14 @@ nav{
     color: #333333;
     margin-bottom: 20px;
 }
+
+.heroine-leftside a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CBCBCB;
+}
 .heroine-rightside img{
     width: 45vw;
 }
@@ -441,8 +438,374 @@ nav{
 }
 @media(max-width: 600px){
     .heroine-leftside h3{
-        font-size: 36px;
+        font-size: 28px;
         line-height: 44px;
+    }
+}
+
+    /* section 7 */
+.joshua{
+    margin-top: 5em;
+}
+.tv{
+    padding-left: 60px;
+    margin-top: 30px;
+}
+
+.tv h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.strong{
+    display: flex;
+    gap: 0em;   
+}
+.grass a img{
+    width: 43vw;
+    margin-bottom: 20px;
+}
+.grass{
+    width: 50%;
+}
+
+.grass a h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.grass p{
+    width: 90%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.grass a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.fahh{
+    padding-bottom: 4px;
+    border-bottom: 1px solid #CBCBCB;
+}
+@media(max-width: 1000px){
+    .tv{
+        padding: 20px;
+    }
+}
+@media(max-width: 600px){
+    .joshua{
+        margin-top: 3em;
+    }
+    .tv h2{
+        font-size: 28px;
+    }
+    .strong{
+        flex-direction: column;
+        gap: 3em;
+    }
+    .grass{
+        width: 100%;
+        
+    }
+    .grass p{
+        width: 100%;
+    }
+    .grass a img{
+        width: 93vw;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 400px){
+    .grass a img{
+        width: 90vw;
+    }
+}
+
+    /* section 8 */
+
+.rusty{
+    margin-top: 7em;
+    padding-left: 60px;
+    width: 90%;
+}
+
+.rusty h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 40px;
+}
+.grandpa {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+
+}
+
+.thompsino a img {
+    margin-bottom: 20px;
+}
+
+.thompsino h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.thompsino p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.thompsino a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+
+@media(max-width: 1135px) {
+    .rusty{
+        padding-left: 20px;
+    }
+    .rusty h2{
+        font-size: 32px;
+    }
+    .grandpa {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+   
+}
+
+@media(max-width: 600px) {
+    .rusty h2{
+        font-size: 28px;
+    }
+    .grandpa {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+      /* section 9 */
+.samsung{
+    margin-top: 9em;
+    background-color: #F6F6F6;
+}
+.iphone{
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oppo{
+    width: 40%;
+}
+
+.oppo h3{
+    font-size: 52px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 60px;
+}
+
+.oppo a{
+    padding: 14px 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.redmi img{
+    width: 40vw;
+}
+@media(max-width: 1135px){
+    .iphone{
+        padding: 20px;
+        flex-direction: column;
+        gap: 5em;
+    }
+    .oppo{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .oppo h3{
+        font-size: 44px;
+    }
+    .redmi{
+        margin-bottom: 30px;
+    }
+    .redmi img{
+        width: 80vw;
+    }
+}
+@media(max-width: 600px){
+    .oppo h3{
+        font-size: 36px;
+    }
+}
+
+  /* section 10 */
+.footer{
+    border: 1px solid black;
+    background-color: #000000;
+}
+
+.foot{
+    width: 90%;
+    margin: 6em auto;
+}
+
+.foot1 a h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.foot1 a p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.foot2{
+    display: flex;
+    gap: 11em;
+    margin-top: 5em;
+}
+
+.blabla li{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.blabla li a{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+     display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.foot3{
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot3-leftside{
+    display: flex;
+}
+
+.foot3-rightside{
+    display: flex;
+}
+
+.ana{
+    padding: 10px 14px;
+    border-radius: 10px;
+    background-color: #111111;
+}
+
+.stephen{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: #111111;
+}
+
+.foot4{
+    margin-top: 3.5em;
+    padding-left: 15px;
+}
+
+.foot4 img{
+    width: 10vw;
+}
+
+.foot5{
+    margin-top: 4em;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.khadijat p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #AFAFAF;
+}
+
+.nuru{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nuru a{
+    font-size: 12px;
+    font-weight: 400;
+    color: #AFAFAF;
+}
+
+@media(max-width: 1118px){
+    .foot2{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 3em;
+    }
+    .foot3{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3em;
+    }
+    .foot3-rightside{
+       flex-direction: column;
+       width: 94px;
+    }
+
+    .foot4 img{
+        width: 150px;
+    }
+    .foot5{
+        flex-direction: column;
+        gap: 3em;
+    }
+}
+@media(max-width: 600px){
+    .foot2{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot4 img{
+        width: 120px;
     }
 }
 
