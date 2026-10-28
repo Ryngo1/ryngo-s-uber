@@ -5,6 +5,9 @@
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+.body{
+    background-color: #FFFFFF;
+}
 header{
     width: 100%;
     background-color: black;
