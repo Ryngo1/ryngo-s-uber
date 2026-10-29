@@ -711,6 +711,9 @@ nav{
     .yimika{
         padding-left: 20px;
     }
+    .ops h2{
+        font-size: 32px;
+    }
     .yimi{
         display: none;
     }

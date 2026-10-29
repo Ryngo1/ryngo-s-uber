@@ -152,6 +152,7 @@ nav{
     /* section 1 */
 .codm{
     margin-top: 4em;
+
 }
 
 .bola{
@@ -187,6 +188,10 @@ nav{
 }
 
       /* section 2 */
+
+.history{
+    background-color: #FFFFFF;
+}
 
 .his{
     padding: 60px;
@@ -280,6 +285,9 @@ nav{
 }
 @media(max-width: 600px){
     .lola{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         height: 60vh;
     }
     .peru{
@@ -299,10 +307,12 @@ nav{
       /* section 4 */
 .ali{
     margin-top: 2em;
+    background-color: #FFFFFF;
 }
 
 .ali-baba{
     margin-top: 5em;
+    background-color: #FFFFFF;
 }
 
 .allister{
@@ -382,6 +392,7 @@ nav{
    /* section 6 */
 .heroine-section{
     margin-top: 4em;
+    background-color: #FFFFFF;
 }
 
 .heroine{
@@ -449,6 +460,7 @@ nav{
     /* section 7 */
 .joshua{
     margin-top: 5em;
+    background-color: #FFFFFF;
 }
 .tv{
     padding-left: 60px;
@@ -537,6 +549,7 @@ nav{
     margin-top: 7em;
     padding-left: 60px;
     width: 90%;
+    background-color: #FFFFFF;
 }
 
 .rusty h2{
