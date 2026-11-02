@@ -58,6 +58,10 @@ nav {
     background-color: #111111;
 }
 
+.a li a:hover{
+    background-color: #313131;
+}
+
 .nav-rightside {
     display: flex;
     align-items: center;
@@ -71,6 +75,10 @@ nav {
     font-weight: 500;
     color: #FCFCFC;
     background-color: #111111;
+}
+
+.nav-rightside ul a:hover{
+    background-color: #313131;
 }
 
 .log {
@@ -90,6 +98,15 @@ nav {
     color: #000000;
     background-color: #FFFFFF;
 }
+
+.log:hover{
+    background-color: #313131;
+}
+
+.sign:hover{
+    background-color: #E3E3E3;
+}
+
 .steph{
     display: flex;
     gap: 8px;
@@ -395,6 +412,59 @@ nav {
     padding: 15px 15px;
     border-radius: 50%;
     background-color: #f3f3f3;
+}
+
+.tj{
+    display: none;
+}
+
+.segun{
+    width: 50vw;
+    margin-bottom: 10px;
+}
+
+.segun h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.segun p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.segun a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+@media(max-width: 1135px){
+    .yimika{
+        padding-left: 20px;
+    }
+    .ops h2{
+        font-size: 32px;
+    }
+    .yimika{
+        display: none;
+    }
+    .tj{
+        display: block;
+    }
+    .segun{
+        width: 100%;
+        padding: 20px;
+    }
+    .segun img{
+        width: 90vw;
+        margin-bottom: 20px;
+    }
+    
 }
 
 /* section 5 */
@@ -724,6 +794,22 @@ nav {
     font-size: 12px;
     font-weight: 400;
     color: #AFAFAF;
+}
+
+.blabla li a:hover{
+    color: #AFAF9E;
+}
+
+.ana:hover{
+    background-color: #313131;
+}
+
+.stephen:hover {
+    background-color: #313131;
+}
+
+.nuru a:hover{
+    color: white;
 }
 
 @media(max-width: 1118px){
