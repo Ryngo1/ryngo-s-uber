@@ -464,6 +464,11 @@ nav {
         width: 90vw;
         margin-bottom: 20px;
     }
+    .beast{
+    width: 150px;
+    margin-left: 60%;
+    text-align: center;
+    }
     
 }
 

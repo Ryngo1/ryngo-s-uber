@@ -8,6 +8,33 @@
 body{
     background-color: black;
 }
+
+/* .reveal{
+    opacity: 0;
+    transform: translateY(26px) scale(0.985);
+    filter: blur(6px);
+    animation: premiumreveal;
+    animation-duration: 0.9s;
+    animation-timing-function: cubic-bezier(1.2);
+}
+
+@keyframes premiumreveal{
+    0%{
+     opacity: 0;
+    transform: translateY(26px) scale(0.985);
+    filter: blur(6px);
+    }
+    60%{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(1px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
+    }
+} */
 header{
     width: 100%;
     background-color: black;
@@ -273,7 +300,7 @@ nav{
     font-weight: 400;
     color: white;
     border-bottom: 1.5px solid #AFAFAF;
-    transition: 2s;
+    transition: 1s;
 }
 
 .lol:hover{
